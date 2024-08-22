@@ -1,0 +1,15 @@
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.nav-item:hover {
+  background-color: gray;
+}
+
+.search-icon:hover {
+  background-color: red;
+}
