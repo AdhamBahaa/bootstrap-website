@@ -7,9 +7,15 @@
 }
 
 .nav-item:hover {
-  background-color: gray;
+  background-color: rgb(181, 178, 178);
 }
-
+.nav-link:hover {
+  color: black !important;
+}
 .search-icon:hover {
   background-color: red;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(181, 178, 178);
 }
