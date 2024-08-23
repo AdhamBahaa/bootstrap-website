@@ -1,3 +1,7 @@
+body {
+  font-size: 15px;
+}
+
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
@@ -33,3 +37,35 @@
 .bio-section--paragraph {
   font-size: 14px;
 }
+
+.dates-section {
+  background-color: black;
+}
+
+.dates-section--content {
+  max-width: 800px;
+  padding: 64px 16px;
+}
+
+.dates-section--content h2 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.dates-section--content > p {
+  font-size: 15px;
+}
+
+.list-group--item {
+  border-bottom: 1px solid #ddd;
+}
+
+.card-img-top:hover {
+  opacity: 90%;
+}
+
+/* 
+.card-groups {
+  border-radius: 0%;
+} */
