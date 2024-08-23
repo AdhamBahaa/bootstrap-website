@@ -19,3 +19,17 @@
 .dropdown-item:hover {
   background-color: rgb(181, 178, 178);
 }
+
+.bio-section > div {
+  max-width: 800px;
+}
+
+.bio-section div h2 {
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.bio-section--paragraph {
+  font-size: 14px;
+}
