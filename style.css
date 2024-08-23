@@ -65,8 +65,16 @@ body {
   border-width: 0;
 }
 
+.card-title {
+  font-size: 15px;
+}
+
+.card-body {
+  font-size: 15px;
+}
+
 .card-img-top:hover {
-  opacity: 90%;
+  filter: brightness(60%);
 }
 
 .button-buy:hover {
@@ -83,25 +91,30 @@ body {
 
 .contact-section--content {
   max-width: 800px;
-  padding: 0px 16px 64px ;
+  padding: 0px 16px 64px;
 }
 
-.footer-section{
+.footer-section {
   color: gray;
 }
 
-.footer-section i{
-    font-size: 18px;
+.footer-section i {
+  font-size: 18px;
 }
 
-.footer-section i:hover{
+.footer-section i:hover {
   color: #d3d3d3;
 }
 
-.powered-by{
+.powered-by {
   font-size: 15px;
 }
 
-.powered-by a{
-   color: gray;
+.powered-by a {
+  color: gray;
+}
+
+.form-control:focus {
+  border-color: black;
+  box-shadow: none;
 }
